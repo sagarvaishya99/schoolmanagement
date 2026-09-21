@@ -4,7 +4,7 @@
   "terminals": [
     {
       "name": "web",
-      "command": "python3 -m http.server 8080 --bind 0.0.0.0",
+      "command": "cd /workspace && python3 -m http.server 8080 --bind 0.0.0.0",
       "description": "Serves the static index.html app at http://localhost:8080"
     }
   ],
